@@ -4,5 +4,5 @@
     "md5": "3dc5278a93990ef42c18366c828d760e", 
     "module": "tunnel", 
     "title": "穿透DDNS", 
-    "version": "0.5"
+    "version": "0.6"
 }
