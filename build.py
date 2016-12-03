@@ -54,7 +54,7 @@ def build_module():
     with codecs.open(conf_path, "w", "utf-8") as fw:
         json.dump(conf, fw, sort_keys = True, indent = 4, ensure_ascii=False, encoding='utf8')
     print u"生成完成", conf["module"] + ".tar.gz"
-    hook_path = os.path.join(parent_path, "hook.sh")
+    hook_path = os.path.join(parent_path, "backup.sh")
     if os.path.isfile(hook_path):
         os.system(hook_path)
 
