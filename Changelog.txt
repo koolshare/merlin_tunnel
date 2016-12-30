@@ -1,0 +1,4 @@
+Koolshare Asuswrt-Merlin Tunnel Changelog
+===========================================
+0.8.0 ( 2016-12-30 08:43 )
+  - update    脚本：增加HTTP/HTTPS穿透时自定义服务器端口

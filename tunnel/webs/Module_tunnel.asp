@@ -112,7 +112,11 @@ function addTr() {
     obj.proto = $("#proto").val();
     if(obj.proto == "http" || obj.proto == "https") {
     	obj.subdomain = $("#subdomain").val();
-    	obj.remoteport = 0;
+    	if($("#remoteport").val() == ""){
+            obj.remoteport = 0;
+        }else{
+            obj.remoteport = parseInt($("#remoteport").val());
+        }
     } else {
     	obj.remoteport = parseInt($("#remoteport").val());
     	obj.subdomain = "";

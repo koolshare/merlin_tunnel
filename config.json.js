@@ -1,8 +1,8 @@
 {
     "description": "穿透 DDNS, 服务器转发方式", 
     "home_url": "Module_tunnel.asp", 
-    "md5": "f20cceadafcce9f3e29956e6a5413e45", 
+    "md5": "72decff774ed31dbe6cfc66e728beeb2", 
     "module": "tunnel", 
     "title": "穿透DDNS", 
-    "version": "0.7"
+    "version": "0.8"
 }
